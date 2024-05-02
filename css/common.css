@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* root
+=================================================== */
+:root {
+    --primary-color: #70832c;
+    --secondary-color: #b1c600;
+    --accent-color: #937571;
+    --base-color: floralwhite;
+    --base-font-size: 14px;
+    --small-font-size: 10px;
+    --large-font-size: 18px;
+    --xl-font-size: 24px;
+}
+
+/* レイアウト
+=================================================== */
+body {
+    background-color: var(--base-color);
+    color: var(--primary-color);
+}

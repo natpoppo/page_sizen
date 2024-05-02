@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* 基本レイアウト
+/* =============================================== */
+@import url(common.css);
+body {
+    font-size: var(--base-font-size);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.25;
+    text-align: center;
+}
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.wrapper {
+    margin: 0 auto 0 auto;
+    width: 960px;
+    padding-top: 50px;
+}
+footer {
+    margin: 0 auto 0 auto;
+    width: 960px;
+}
+/* header==================================
+=========================================== */
+#top {
+    margin: 0 auto 0 auto;
+    width: 1000px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+#top a:hover {
+    opacity: 0.8;
+}
+
+nav ul li {
+    color: var(--secondary-color);
+    font-size: var(--large-font-size);
+    margin: 0 30px 0 10px;
+    text-align: right;
+    float: left;
+    /* background-color: antiquewhite; */
+}
+nav ul li a:hover {
+    overflow: hidden;
+    /* display: inline-block; */
+    color: var(--primary-color);
+}
+/* main ========================
+==================================== */
+#contents {
+    padding: 50px 50px;
+    margin: 0 auto;
+}
+#contents h2 {
+    color: #fff;
+    font-size: var(--xl-font-size);
+    margin: 30px;
+    padding-top: 10px;
+    /* background-color: aqua; */
+    transition: all  0.3s ease;
+  filter: drop-shadow(1px 1px 2px #121212);
+  display: inline-block;
+}
+#contents h2:hover {
+    color: var(--secondary-color)
+}
+#contents h3{
+    font-size: var(--xl-font-size);
+    margin: 30px;
+    /* background-color: aquamarine; */
+}
+.fixed-bg {
+    height: 150px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* concept=============================
+==================================== */
+.concept-img {
+    background-image: url(../img/1x/bg03.png);
+}
+
+/* menu================================
+==================================== */
+.garally_box {
+    padding: 30px auto 30px auto;
+    display: flex;
+}
+.garally_box figure {
+    margin: 0 auto;
+    width: 360px;
+}
+.menu-img {
+    background-image: url(../img/1x/bg01.avif);
+}
+/* product ==========================
+===================================== */
+#products {
+    padding-top: 30px;
+}
+#item_img {
+    max-width: 480px;
+}
+#item_info {
+    max-width: 480px;
+}
+#products {
+    width: 960px;
+    display: flex;
+}
+.products-img {
+    background-image: url(../img/1x/bg02.avif);
+}
+/* product responsive ================
+====================================== */
+
+
+/* access ============================
+====================================== */
+#access {
+    padding-top: 50px;
+}
+
+#access table {
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    width: 600px;
+    text-align: center;
+}
+#access iframe {
+    padding-top: 20px;
+}
+.access-img {
+    background-image: url(../img/1x/bg05.avif);
+}
+/* footer===============================
+====================================== */
+footer {
+    padding-top: 70px;
+}
+footer a:hover {
+    opacity: 0.8;
+    color: var(--primary-color);
+}
+
+/* footer nav===============================
+====================================== */
+#foot li {
+    width: 100px;
+}
+#foot ul {
+    font-size: var(--base-font-size);
+    display: flex;
+    width: 50%;
+    margin: 5px auto;
+}
+#foot li a:hover {
+    opacity: 0.8;
+    color: var(--primary-color);
+}
