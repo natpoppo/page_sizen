@@ -22,17 +22,3 @@
 /* 画像のスライドショー */
 
 
-/* 背景の色を変化させる */
-body{
-	animation: bgchange 15s ease infinite;
-}
-
-
-@keyframes bgchange{
-  0%   {background:#fff;}
-  25%  {background:floralwhite;}
-  50%  {background:#fce7e2;}
-  75%  {background:#fdfdd9;}
-  90%  {background:#dbeaf3;}
-  100% {background:#ffffff;}
-}
