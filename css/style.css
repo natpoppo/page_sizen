@@ -38,17 +38,21 @@ footer {
 }
 
 nav ul li {
-    color: var(--secondary-color);
+    color: #fff;
     font-size: var(--large-font-size);
     margin: 0 30px 0 10px;
     text-align: right;
     float: left;
-    /* background-color: antiquewhite; */
+    background-color: var(--primary-color);
+}
+nav ul li a {
+    color: #fff;
 }
 nav ul li a:hover {
     overflow: hidden;
     /* display: inline-block; */
     color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 /* ビデオの埋め込み==============
 ================================== */
@@ -173,7 +177,13 @@ footer a:hover {
     width: 50%;
     margin: 5px auto;
 }
+#foot li a {
+        color: #fff;
+        padding: 5px 5px 5px 5px;
+        background-color: var(--primary-color);
+}
 #foot li a:hover {
     opacity: 0.8;
     color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
