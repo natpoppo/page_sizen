@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="icon" href="img/1x/ikon1.jpg">
 	<title>organic_restaurant_sizen</title>
 	<meta name="description" content="宮崎の美味しい無農薬野菜を味わえる、オーガニックレストランsizenのホームページです。">
@@ -18,19 +19,27 @@
 		<h1><a href="index.html">
 			<img src="img/1x/logo.png" alt="organic_restaurant_sizen">
 		</a></h1>
-		<nav>
-			<ul>
-				<li class="head_nav"><a href="#concept">CONCEPT</a></li>
-				<li class="head_nav"><a href="#menu">MENU</a></li>
-				<li class="head_nav"><a href="#product">PRODUCT</a></li>
-				<li class="head_nav"><a href="#access">ACCESS</a></li>
-			</ul>
-		</nav>
+		<div id="nav">
+			<nav class="nav-list">
+				<ul>
+					<li class="head_nav"><a href="#concept">CONCEPT</a></li>
+					<li class="head_nav"><a href="#menu">MENU</a></li>
+					<li class="head_nav"><a href="#product">PRODUCT</a></li>
+					<li class="head_nav"><a href="#access">ACCESS</a></li>
+				</ul>
+			</nav>
+		<div class="toggle_btn">
+			<span></span>
+			<span></span>
+		</div>
+		<div id="mask"></div>
+	</div>
 	</header>
 	<!-- ビデオの埋め込み -->
 	<main id="main">
 		<div id="video">
-		  <video id="bg-video" src="img/video/AdobeStock_field.mov" loop autoplay muted playsinline></video>
+		  <video id="bg-video" src="img/video/sizen_top.mp4" loop autoplay muted playsinline></video>
+		  <div class="site-title"><h1>Organic Restaurant Sizen</h1></div>
 		</div>
 		<!--  -->
 	<!-- <section id="top_img"><img src="img/1x/top1.png" alt="top_img"></section> -->
@@ -132,11 +141,13 @@
 			<div class="access-img fixed-bg">
 			<h2>ACCESS</h2>
 		</div>
-			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.9140309717054!2d131.41644944442208!3d31.94717519148969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3538b0c55b540793%3A0x53c903ddf4ddccae!2z7721772w7722776e776G772v7724776a7729776E776X776dIHNpemVu!5e0!3m2!1sja!2sjp!4v1714104926726!5m2!1sja!2sjp"
-				width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-				referrerpolicy="no-referrer-when-downgrade">
-			</iframe>
+			<div class="map">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.9140309717054!2d131.41644944442208!3d31.94717519148969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3538b0c55b540793%3A0x53c903ddf4ddccae!2z7721772w7722776e776G772v7724776a7729776E776X776dIHNpemVu!5e0!3m2!1sja!2sjp!4v1714104926726!5m2!1sja!2sjp"
+					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade">
+				</iframe>
+			</div>
 			<table class="info">
 				<tr>
 					<th>店名</th>
